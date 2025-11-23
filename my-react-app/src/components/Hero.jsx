@@ -13,7 +13,10 @@ export default function Hero() {
           <h1 className="hero-title">Leo Dean</h1>
           <p className="hero-role">Freelance Full Stack Developer</p>
           <p className="hero-tagline">Building responsive and functional web applications with a focus on problem-solving and clean code.</p>
-          <a href="#contact" className="btn primary">Contact Me</a>
+          <div className="hero-actions" style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>
+            <a href="#contact" className="btn primary">Contact Me</a>
+            <a href="https://github.com/leodean2" className="btn" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
